@@ -1,0 +1,14 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "v.prots",
+  "license": "ISC",
+  "dependencies": {
+    "konva": "^1.7.6"
+  }
+}
