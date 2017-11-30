@@ -98,9 +98,10 @@ addText.addEventListener('click', function () {
   });
 });
 
+// save images
 
-var downloadImg = document.getElementById("download");
-
-downloadImg.addEventListener('click', function () {
-  
+$("#download").click(function () {
+  $("canvas").get(0).toBlob(function (blob) {
+    saveAs(blob, "image.png")
+  });
 });
