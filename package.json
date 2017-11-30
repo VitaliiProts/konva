@@ -9,6 +9,9 @@
   "author": "v.prots",
   "license": "ISC",
   "dependencies": {
+    "fabric": "^2.0.0-rc.3",
+    "file-saver": "^1.3.3",
+    "jquery": "^3.2.1",
     "konva": "^1.7.6"
   }
 }
